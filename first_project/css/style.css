@@ -1,0 +1,525 @@
+body {
+	font-family: 'Varela Round', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+/*First screen*/
+
+header {
+	background: url(../img/back.jpg)no-repeat center top / cover;
+	height: 130vh;
+}
+.menu {
+	display: flex;
+	justify-content: center;
+}
+.menu__item {
+	list-style: none;
+	margin: 40px 15px 0px 15px;
+}
+.menu__item a:hover {
+	color: #267df4;
+}
+.menu__item a {
+	text-decoration: none;
+	color: #000;
+	transition: all 0.3s ease;
+}
+.logo {
+	margin: 40px 140px 0px 140px;
+}
+.get-app-btn a {
+	color: #fff;
+	background: #267df4;
+	padding: 11px 23px 11px 15px;
+	border-radius: 25px;
+	border: 2px solid #267df4;
+	text-decoration: none;
+	transition: all 0.3s ease;
+}
+.get-app-btn a:hover {
+	color: black;
+	background-color: white;
+	border: 2px solid #267df4;
+}
+.fa-apple-menu {
+	font-size: 20px;
+	padding-right: 10px;
+}
+.title {
+	text-align: center;
+	margin-top: 100px;
+}
+.title h1 {
+	font-size: 50px;
+	display: block;
+}
+.title p {
+	width: 700px;
+	margin: 40px auto;
+	color: #9a9da1;
+	display: block;
+}
+.title a {
+	text-decoration: none;
+	color: black;
+	border: 2px solid #dadcdf;
+	padding: 10px 40px 10px 0;
+	border-radius: 20px;
+	transition: all 0.3s ease;
+}
+.title a:hover {
+	color: white;
+	background: #267df4;
+	border: 2px solid #267df4;
+}
+.fa-play {
+	padding: 0 20px 0 20px;
+	font-size: 13px;
+}
+.menu:nth-child(7) {
+	margin-right: 0;
+}
+
+/*second screen*/
+
+.lock {
+	width: 400px;
+	margin: 100px 100px;
+}
+.lock h3 {
+	font-weight: 50;
+	color: #26272d;
+	margin: 30px 0;
+}
+.lock p {
+	color: #8c8f94;
+	font-size: 16px;
+	line-height: 1.5;
+}
+.alarm {
+	width: 400px;
+	margin: 100px 100px;
+}
+.alarm h3 {
+	font-weight: 50;
+	color: #26272d;
+	margin: 30px 0;
+}
+.alarm p {
+	color: #8c8f94;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+/*Third screen*/
+
+.iphone-img {
+	display: block;
+	width: 600px;
+}
+.iphone-bar h3 {
+	margin: 80px 0 20px 0;
+	font-size: 30px;
+	color: #26272d;
+	font-weight: 500;
+}
+.iphone-bar p {
+	width: 410px;
+	margin: 30px 0;
+	color: #8c8f94;
+	font-size: 16px;
+}
+.second-p {
+	margin: 30px 0 70px 0;
+}
+.links-iphone a {
+	text-decoration: none;
+	margin-right: 30px;
+}
+.hack {
+	border: 2px solid #267df4;
+	padding: 10px 15px;
+	border-radius: 30px;
+	background: #267df4;
+	color: #fff;
+	transition: all 0.3s ease;
+}
+.fa-arrow-right {
+	padding-left: 30px;
+}
+.more {
+	color: #000;
+	border: 2px solid #dadcdf;
+	padding: 10px 30px;
+	border-radius: 30px;
+	transition: all 0.3s ease;
+}
+.hack:hover {
+	color: #000;
+	background: #fff;
+	border: 2px solid #267df4;
+}
+.more:hover {
+	color: #fff;
+	background: #267df4;
+	border: 2px solid #267df4;
+}
+
+/*fourth screen*/
+
+.world-map {
+	width: 655px;
+	display: block;
+}
+.world-map-wrapper  {
+	margin: 150px 0;
+}
+.world-map-wrapper a {
+	text-decoration: none;
+}
+.world-map-wrapper h3  {
+	font-size: 30px;
+	color: #26272d;
+}
+.world-map-wrapper p {
+	margin: 30px 0;
+	color: #8c8f94;
+	width: 400px;
+}
+.partners {
+	text-transform: uppercase;
+	color: #000;
+	font-weight: 700;
+	font-size: 13px;
+	display: block;
+	margin-bottom: 25px;
+}
+.dropbox {
+	margin-right: 30px;
+}
+
+/*fifth screen*/
+
+.section-bg {
+	background: #f5f5f8;
+}
+.enter-email {
+	padding-top: 60px;
+	text-align: center;
+}
+.new-p {
+	text-transform: uppercase;
+	color: #bdbec3;
+	font-size: 15px;
+	margin-bottom: 30px;
+}
+.new {
+	font-weight: bold;
+	color: #a8a9af;
+}
+.enter-email h3 {
+	color: #3a3d4b;
+	font-size: 40px;
+}
+input[type="email"] {
+	border: 1px solid #a8a9af;
+	border-radius: 30px;
+	outline: none;
+	width: 500px;
+	padding: 8px 0 8px 20px;
+	margin: 30px 0;
+}
+input[type="submit"] {
+	position: absolute;
+	left: 672px;
+	color: #fff;
+	background-color: #6fc754;
+	border-radius: 30px;
+	padding: 6px 30px;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	margin-top: 33px;
+}
+.new-p-2 {
+	color: #c9c9ce;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 700;
+	margin-top: 30px;
+}
+.enter-email-btn {
+	padding: 0;
+	margin: 20px 0 60px;
+}
+
+/*sixth screen*/
+
+.fotorama-block {
+	margin-top: 70px;
+}
+.fotorama {
+	width: 20%;
+	margin: 0 auto;
+}
+.slider-features {
+	text-align: center;
+	margin: 50px 0 100px 0;
+
+}
+.slider-features h3 {
+	margin-bottom: 50px;
+}
+.slider-features p {
+	width: 600px;
+	margin-bottom: 50px;
+	color: #8c8f94;
+	font-size: 15px;
+	margin: auto;
+	display: block;
+}
+.slider-features span {
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 13px;
+	position: relative;
+	top: 50px;
+}
+
+/*Seventh screen*/
+
+.plan-block {
+	margin: 200px 0;
+}
+.plan-block h3 {
+	font-size: 35px;
+	margin-bottom: 50px;
+}
+.you-are-span {
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 13px;
+}
+.you-are {
+	border: 1px solid #8c8f94;
+	border-radius: 20px;
+	width: 270px;
+	padding: 4px 0;
+	margin: 15px 0 50px;
+}
+.you-are a {
+	text-decoration: none;
+	color: #8c8f94;
+	padding: 6px 25px;
+}
+.you-are a:hover {
+	background: #fff;
+	border-radius: 20px;
+	color: #000;
+	box-shadow: 0 0 5px rgba(0,0,0,0.4);
+	transition: all 0.3s ease;
+}
+.plan-block p {
+	color: #8c8f94;
+}
+.bigger-team-span {
+	color: #8c8f94;
+	font-size: 13px;
+}
+/*Starter plan*/
+.starter-plan, .pro-plan {
+	text-align: center;
+	margin-top: 150px;
+	background: #ebebed;
+	height: 500px;
+	border-radius: 10px;
+	transition: all 0.3s ease;
+}
+.starter-plan h4 {
+	font-size: 30px;
+	padding: 60px 0 20px;!!!!!!!
+	font-weight: 100;
+}
+.starter-plan span {
+	border: 1px solid grey;
+	padding: 5px 10px;
+	font-size: 12px;
+	border-radius: 30px;
+	font-weight: bold;
+}
+.build-schedule {
+	color: #8c8f94;
+	margin-top: 30px;
+}
+.fa-check {
+	color: #6fc754;
+	padding-right: 10px;
+}
+.starter-feat-1 {
+	padding-top: 30px;
+}
+.starter-plan a {
+	text-decoration: none;
+	color: #267df4;
+	border: 1px solid #267df4;
+	padding: 10px 40px;
+	border-radius: 30px;
+	position: relative;
+	top: 90px;
+	transition: all 0.3s ease;
+}
+.starter-plan a:hover{
+	color: #fff;
+	background: #267df4;
+}
+/*Pro plan*/
+.pro-plan h4 {
+	font-size: 30px;
+	padding: 60px 0 20px;
+	font-weight: 100;
+}
+.pro-plan span {
+	border: 1px solid grey;
+	padding: 5px 10px;
+	font-size: 12px;
+	border-radius: 30px;
+	font-weight: bold;
+}
+.make-better {
+	color: #8c8f94;
+	margin-top: 30px;
+}
+.fa-check {
+	color: #6fc754;
+	padding-right: 10px;
+}
+.pro-feat-1 {
+	padding-top: 30px;
+}
+.pro-plan a {
+	text-decoration: none;
+	color: #267df4;
+	border: 1px solid #267df4;
+	padding: 10px 40px;
+	border-radius: 30px;
+	position: relative;
+	top: 50px;
+	transition: all 0.3s ease;
+}
+.pro-plan a:hover{
+	color: #fff;
+	background: #267df4;
+}
+.starter-plan:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  background-color: #fff;
+  box-shadow: 20px 20px 20px rgba(0,0,0,0.4);
+}
+.pro-plan:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  background-color: #fff;
+  box-shadow: 20px 20px 20px rgba(0,0,0,0.4);
+}
+
+/*8 screen*/
+
+.newsletters {
+	text-align: center;
+	margin: 100px 0;
+}
+input[type="email-sub"] {
+	border: 1px solid #a8a9af;
+	border-radius: 30px;
+	outline: none;
+	width: 500px;
+	padding: 10px 0 8px 20px;
+	margin: 30px 0;
+}
+input[type="submit-sub"] {
+	position: absolute;
+	left: 672px;
+	color: #fff;
+	background-color: #6fc754;
+	border-radius: 30px;
+	padding: 6px 30px;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	margin-top: 34px;
+	width: 145px;
+}
+.newsletters {
+	color: #8c8f94;
+	font-weight: bold;
+}
+ /*nineth screen*/
+
+.main-info {
+	margin-top: 90px;
+}
+.main-info img {
+	margin-bottom: 40px;
+}
+.main-info p {
+	color: #8c8f94;
+	margin-bottom: 30px;
+}
+.main-info li {
+	color: #bdbec0;
+	font-size: 20px;
+	transition: all 0.2s ease;
+}
+.main-info li:hover {
+	color: #000;
+	cursor: pointer;
+}
+.socials-list {
+	padding: 0;
+	margin-bottom: 130px;
+}
+.question-menu-1 {
+	margin-top: 90px;
+	color: #8c8f94;
+	padding: 0
+}
+.question-menu-1 li {
+	padding-bottom: 10px;
+}
+.question-menu-1 li:hover {
+	cursor: pointer;
+}
+.question-menu-lead {
+	text-transform: uppercase;
+	color: #000;
+	font-weight: bold;
+}
+
+/*footer*/
+
+.footer {
+	height: 70px;
+	vertical-align: middle;
+}
+.footer p {
+	color: #8c8f94;
+	padding-top: 15px;
+}
+.footer span {
+	color: #000;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 12px;
+	margin-right: 10px;
+}
+.craft-work-block {
+	padding-top: 15px;
+}
+
