@@ -1,2 +1,2 @@
-# Daniel-Vataga.github.io
+# Daniel Vataga
 My first landing page
